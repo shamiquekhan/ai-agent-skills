@@ -1,4 +1,4 @@
-# ai-agent-skills
+# AI Agent Skills Library
 
 **Shamique Khan — AI Agent Skills Library**
 
