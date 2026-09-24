@@ -1,0 +1,36 @@
+# Skill catalog for ai-agent-skills
+# This file is the machine-readable source of truth for the skills table in the root README.
+# Every skill folder under skills/ must be registered here.
+
+skills:
+  - name: production-runbook-engineering
+    category: devops
+    description: >
+      Analyze a repository and create minimal, verified, production-safe
+      incident runbooks based strictly on the project's actual architecture,
+      deployment, dependencies, and failure modes.
+
+  - name: repo-to-runbooks
+    category: devops
+    description: >
+      Work inside an existing project to create or improve a production-ready
+      runbooks/ directory. Scans the repository, identifies real failure modes,
+      and writes only the runbooks the project needs — documentation-only,
+      never touching code or infrastructure.
+
+  - name: app-security-audit
+    category: security
+    description: >
+      Perform a structured security audit of an application repository, focused
+      on the predictable failure modes of AI-generated apps: exposed secrets,
+      broken data isolation, missing server-side validation, unsafe dependencies,
+      unused auth middleware, and over-permissive permissions. Produces a
+      severity-ordered, evidence-backed findings report.
+
+  - name: repository-security-audit
+    category: security
+    description: >
+      Audit the security of the repository itself: CI/CD pipelines, dependency
+      and supply-chain risk, secrets hygiene, container and infrastructure-as-code
+      configuration, artifact publishing, and repo settings. Produces a
+      severity-ordered, evidence-backed findings report with hardening steps.

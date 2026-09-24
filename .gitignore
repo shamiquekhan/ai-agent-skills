@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Environment / secrets (defensive: skills must never contain them)
+.env
+.env.*
+*.pem
+*.key
